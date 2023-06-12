@@ -1,0 +1,96 @@
+@font-face 
+{
+    font-family: Montserrat;
+    src: url(/fuente/Montserrat-VariableFont_wght.ttf);
+}
+
+body 
+{ 
+    font-family: 'Montserrat',sans-serif;
+    margin: auto;
+    width: clamp(390px, 100%, 1920px);
+    background-color: #F6F6F6;
+}
+
+a{text-decoration: none; color:#519E47}
+
+header
+{   
+    display: flex;
+    justify-content: space-between ;
+    background-color: #F6F6F6;
+    align-items: center;
+    padding-left: 9%; padding-right: 10%;
+}
+
+.volver {font-size: 19px;}
+
+.logo img 
+{
+    height: 110px;padding-right: 30px;
+}
+
+/* =================================================================
+    Navegación*/
+
+.pegajoso 
+{
+    position: sticky; top: 0;
+    z-index: 90;
+    width: 100%;
+    margin: auto;
+    box-shadow: 1px 3px 10px #000000;
+}
+  
+.pegajoso ul 
+{
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 1%;
+}
+  
+.pegajoso ul li 
+{   list-style: none; }
+
+nav.pegajoso li a:hover
+{   background-color: #E9EEDE; }
+
+
+/* =================================================================
+    Sección 1*/
+  
+.Seccion1
+{
+    display: flex;
+    margin: auto;
+    background: url(/imagenes/Gf.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 40%;
+    background-size: cover;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Mini
+{    width: 100%; }
+
+#h1S1
+{
+    margin: auto;
+    text-align: center;
+    color: #FAF0D7;
+    font-size: 90px;
+    padding-left: 4%; padding-right: 4%;
+}
+#h3S1
+{
+    padding-left: 4%; padding-right: 4%;
+    text-align: center;
+    color: #FAF0D7;
+    font-size: 30px;
+    font-weight: light;
+}

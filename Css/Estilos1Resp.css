@@ -1,0 +1,212 @@
+@media screen and (max-width: 1050px)
+{
+    .logo img {max-width: 60%; height:auto}
+
+    .dejanosuncomentario {font-size: 12px; text-align: center;}
+    
+    .pegajoso {font-size:10px;}
+
+    #h1S1  {font-size:3.5rem; text-align: center; padding-left: 0;} 
+
+    #h3S1  {font-size:1.5rem; text-align: center; padding-left: 0;}
+
+    .Mini  {width: 80%;}
+
+    .Seccion1
+    {
+        align-items: center; text-align: center; justify-content: center;
+        padding-left:0%; padding-right:0%;
+        padding-top: 10%;
+    }
+
+    .Seccion2 {flex-direction: column;}
+
+    .SecIzq {padding-right: 0; display: none;}
+
+    .SecDer
+    {
+        padding-right: 5%; padding-left: 5%;
+        text-align: center;
+        margin: 0; max-width: 100%;
+    }
+
+    .FTexto {padding-left: 0; padding-top: 4%; padding-bottom:6%;}
+    #QueEs {font-size:16px}
+    .PUFF {font-size:32px}
+    .masque {font-size:20px}
+
+
+    /* =================================================================
+    */
+
+    #nst
+    {font-size:28px;}
+
+    #nst:before, #nst:after 
+    {height: 3.5px;}
+
+    .Seccion3 {padding-left:10%; flex-direction: column; justify-content: center; align-items: center; padding-bottom: 5%;}
+    
+    .Ntext
+    {
+        font-size:16px; text-align: center; padding-right: 0; padding-bottom: 5%; width: 90%;
+        margin: 0; 
+    }
+    .ListaActividad {text-align: left;}
+
+    .fotosN
+    {
+        margin: 0; padding-right: 0; flex-direction: row; justify-content: space-around;
+    }
+
+    .fotosN img {padding-top: 0; padding-bottom: 0; width:40%; height: auto;}
+
+
+    /* =================================================================
+    */
+
+    .Sig { font-size: 15px;}
+
+    .Red { font-size: 28px;}
+
+    .RS:before, .RS:after 
+    {height: 3.5px;}
+
+    .Seccion4 {padding-bottom: 5%;}
+
+    .facebookD{padding-bottom: 1%;}
+    .FacebookR {font-size: 20px; width:24%; padding-right: 3%;}
+    .Fbt {font-size:16px;}
+    .vacio {width:25%}
+    .InstagramD{padding-bottom: 1%;}
+    .InstagramR {font-size: 20px; width:24%; padding-right: 3%;}
+    .Igt {font-size:16px;}
+    .vacioIg {width:25%}
+    .WhatsappD{padding-bottom: 1%;}
+    .WhatsappR {font-size: 20px; width:24%; padding-right: 3%;}
+    .Wpt {font-size:16px;}
+    .vacioWp {width:25%}
+    .YoutubeD{padding-bottom: 1%;}
+    .YoutubeR {font-size: 20px; width:24%; padding-right: 3%;}
+    .Ytt {font-size:16px;}
+    .vacioYt {width:25%}
+
+    /* =================================================================
+    */
+
+    #nsval
+    {font-size: 28px; border-bottom: 5px solid white;}
+
+    #nsval::before, #nsval::after
+    {width: 5px;}
+
+    #nsval::before
+    {    left: 20%;   }
+    #nsval::after
+    {    right: 20%;   }
+
+    #cont5
+    {
+        flex-direction: column; margin: 0;
+    }
+
+    .formatoS5 
+    {
+        justify-content: space-around;
+        margin-bottom:3%;
+        width:80%;
+        margin-left: 5%; margin-right: 5%;
+        font-size: 16px;
+        line-height: 1.5;
+        padding-right: 3%; padding-left: 3%;
+    }
+
+    .formatoS5 img {width: 30%; padding-bottom: 0; display: none;}
+
+    .HTex{font-size: 20px}
+
+
+    /* =================================================================
+    Sección 6*/
+
+    #MVP
+    {font-size: 28px;}
+
+    #MVP::before, #MVP::after 
+    {height: 3.5px; width: 16%;}
+
+    .cont6
+    {flex-direction: column;}
+
+    #mision
+    { width: 80%; padding-bottom: 5%; flex-direction: row;}
+    #imgmision img
+    {height:100px}
+    #imgmision
+    {width: 100px}
+    #mistxt
+    {font-size: 14px;  margin-left: 4%;}
+
+    #Mt{font-size:24px; margin: 0; margin-top: 3%;}
+    #Vt{font-size:24px; margin: 0; margin-top: 3%;}
+    #Pt{font-size:24px; color: white; margin: 0%;}
+
+    #vision
+    { width: 80%; padding-bottom: 5%; flex-direction: row;}
+    #imgvision img
+    {height:100px}
+    #imgvision
+    {width: 100px}
+    #vistxt
+    {font-size: 14px;  margin-left: 4%;}
+
+    #ultimacaja
+    {width: 80%; padding-bottom: 5%; font-size: 14px; width: 75%;}
+
+
+    /* =================================================================
+    Sección 7*/
+
+    .contenedorfinal
+    {
+        flex-direction: column;
+    }
+
+    #Ultimaseccion
+    {width: 100%; justify-content: center; padding:0;}
+
+    #Ultimaseccion ul
+    { width: 80%;}
+
+    .contenedorfinal ul li a 
+    {font-size: 12px;}
+
+    .contenedorfinal ul
+    { padding-inline-start:0;}
+
+    #redimensionar
+    {width: 100%; padding-right: 0;}
+
+    #redimensionar img 
+    {
+        width: 30%;
+        height: auto;
+    }
+
+    #redimensionar ul
+    {text-align: center}; 
+
+    .contenedorfinal2
+    {
+        padding-top: 0%;padding-bottom: 1%; padding-left: 0%; padding-right: 0%;
+    }
+
+    .pf
+    {
+        font-size: 12px;
+    }
+
+
+}
+
+
